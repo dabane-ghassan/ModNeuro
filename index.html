@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="HandheldFriendly" content="true">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+
+
+        <title>
+            Introduction to modeling for neuroscience
+        </title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="chevron"></div>
+            <div class="chevron"></div>
+            <div class="chevron"></div>
+        </div>
+        
+        <div class='layout'>
+            <h1>Description</h1>
+            <p id="info"> Hello! My name is Ghassan Dabane and i finished my undergraduate degree in Neuroscience at Aix-Marseille University in 2020.
+                The work shown in the notebooks was influenced from the assignments i had in my senior year as an introduction
+                to theoretical/ computational neuroscience.</p>
+            <h1>Acknowledgements</h1>
+            <p id="info"> I would like to express my deep and sincere gratitude to Professor Laurent Pezard who ignited my passion for this subject during my senior year
+                and put out some excellent learning material.</p>
+            <h1>Notebooks</h1>
+            <div class = "navigation">
+                <ul>
+                    <li><a id="nav" href="images/1_Enzyme_Kinetics.html" target="blank">
+                                        <span></span>  
+                                        Enzyme Kinetics</a></li>
+                    <li><a id="nav" href="images/2_Passive_Membrane.html" target="blank">
+                                        <span></span>
+                                        Passive Membrane</a></li>
+                    <li><a id="nav" href="images/3_Active_Membrane.html" target="blank">
+                                        <span></span>
+                                        Active Membrane</a></li>
+                    <li><a id="nav"href="images/4_Neuronal_Models.html" target="blank">
+                                        <span></span>
+                                        Neuronal Models</a></li>
+                    <li><a id="nav" href="images/5_Neural_Networks.html" target="blank">
+                                        <span></span>
+                                        Neural Networks</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="popup" onclick="myFunction()"> <span id="qmark"><i class="fa fa-question-circle"></i></span>
+                            <span class="popuptext" id="myPopup"><div class="marquee-rtl">
+                                <div>A series of notebooks designed to help biologists get a grip on how
+                                    to implement basic neuroscience concepts using Python.... an introductory course
+                                    to Python programming language may be needed in order to familiarize the reader with certain concepts...
+                                </div>
+                            </div></span>
+        </div>               
+        <script>  
+            function myFunction() {
+            var popup = document.getElementById("myPopup");
+            popup.classList.toggle("show");
+                        }
+        </script>
+        <div class="footer">
+            <div id="button"></div>
+          <div id="container">
+          <div id="cont">
+          <div class="footer_center">
+            <p id="CC"><a style ="color: #1a1a1a" href="https://creativecommons.org/licenses/by/4.0/"><i class="fa fa-creative-commons"></i></a>      
+                2020 Ghassan Dabane <br>
+                Artwork by <a style ="color: #1a1a1a;" href ="https://vipvok.artstation.com/">ViPVOK</a>
+            </p>
+          </div>
+          </div>
+          </div>
+        </div>
+
+    </body>
+</html>
